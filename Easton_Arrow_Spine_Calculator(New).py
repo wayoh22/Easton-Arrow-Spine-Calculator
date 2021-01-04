@@ -25,7 +25,5 @@ effective_row_index = row_index - (number_of_columns - 1 - column_index)
 if not (0 <= effective_row_index < len(column_pattern)):
     print("Bow poundage not supported.")
     
-
 arrow_spine = column_pattern[effective_row_index]
 print(" or ".join(str(s) for s in arrow_spine) + " spine.")
-
